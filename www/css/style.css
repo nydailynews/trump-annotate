@@ -16,20 +16,6 @@ p {
 	line-height: 27px;
 }
 
-ol, dl {
-	font-family: inherit;
-	font-size: 15px;
-	line-height: 25px;
-}
-
-dt {
-	color: #999;
-}
-
-dd {
-	margin-bottom: 10px;
-}
-
 ul {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
@@ -65,13 +51,6 @@ body#nydailynews article {
 	max-width: 75%;
 }
 
-p.byline {
-	font: normal 14px "Open Sans", sans-serif;
-	width: 90%;
-	margin: auto;
-	text-align: center;
-}
-
 /*------------------------------------------------------------*/
 #rh-subnav {
 	display: none;
@@ -87,107 +66,155 @@ p.byline {
 
 #intro {
 	width: 100%;
-	padding: 50px;
+	padding: 1px;
 	text-align: center;
 	position: relative;
-	top: 70%;
+	top: 71%;
 	transform: translateY(-50%);
 }
 
 #intro h2 {
-    position: relative;
-    font: normal 17px 'Open Sans', sans-serif;
-    z-index: 1;
-    overflow: hidden;
-    text-align: center;
-    text-transform: uppercase;
-    color: white;
-    margin: 15px auto;
-    letter-spacing: 0.03em;
+	font: normal 17px 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1px;
 }
 
 #intro h2:before, #intro h2:after {
-    content: '';
-    width: 100px;
-    height: 3px;
-    display: inline-block;
-    background-color: white;
-    vertical-align: 0.3em;
-    margin: auto 15px;
+	content: '';
+	width: 100px;
+	height: 3px;
+	display: inline-block;
+	background-color: white;
+	vertical-align: 0.3em;
+	margin: auto 15px;
 }
 
 #intro h1 {
-    width: 100%;
-    font: bold 60px 'Open Sans Condensed', sans-serif;
-    text-transform: uppercase;
-    color: white;
-    margin: 0;
+	width: 100%;
+	font: bold 60px 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	margin: 0;
 }
 
 #intro p {
-    width: 75%;
-    font: normal 17px 'PT Serif', serif;
-    line-height: 27px;
+	width: 75%;
+	font: normal 17px 'PT Serif', serif;
+	line-height: 27px;
+	color: white;
+	margin: 15px auto;
+}
+
+#intro p.byline {
+    font: bold 20px "Open Sans Condensed", sans-serif;
+    text-transform: uppercase;
+    text-align: center;
     color: white;
-    margin: auto;
 }
 
 .speech {
-	margin: 50px auto;
+	margin: 50px auto 0px auto;
 	max-width: 750px;
 }
 
 .highlight {
-    background-color: #fff2ac;
-    background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+	background-color: #fff2ac;
+	background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
 }
+
+.note {
+	width: 85%;
+	background-color: #f1f1f1;
+	border: 1px solid #ccc;
+	padding: 15px;
+	margin: 15px auto;
+	text-align: center;
+	overflow: hidden;
+}
+
+blockquote {
+	width: 80%;
+	margin: 30px auto;
+	border-left: 2px solid #ef1c1b;
+    padding-left: 20px;
+    line-height: 23px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+blockquote p {
+	font: normal 14px 'Open Sans', sans-serif;
+	line-height: 21px;
+}
+
+.note p {
+	font: normal 14px 'Open Sans', sans-serif;
+	line-height: 21px;
+	text-align: left;
+	margin-bottom: 1em;
+}
+
+.note p:last-child {
+	margin-bottom: 0em;
+}
+
+.note img.tweet {
+	margin-bottom: 10px;
+	width: 90%;
+	float: none;
+	margin-right: 0;
+}
+
+.note img {
+	width: 30%;
+	float: left;
+	margin-right: 15px;
+}
+
 
 /*--------- HANDHELD ---------*/
 
 @media only screen and (min-width: 250px) and (max-width: 727px) {
 #intro-bg {
-        background-image: url(../img/annotate-header-mobile.jpg);
-        height: 235px;
-    }
-
-    #intro {
-        top: 100%;
-        margin-bottom: 30px;
-        padding: 10px;
-        transform: none;
-    }
-
-    #intro h2 {
-        font: normal 17px 'Open Sans', sans-serif;
-        color: black;
-    }
-
-    #intro h2:before, #intro h2:after {
-    display: none;
+		background-image: url(../img/annotate-header-mobile.jpg);
+		height: 235px;
 	}
 
-    #intro h1 {
-    font: bold 30px 'Open Sans Condensed', sans-serif;
-    line-height: 40px;
-    color: black;
+	#intro {
+		top: 100%;
+		margin-bottom: 30px;
+		padding: 10px;
+		transform: none;
+	}
+
+	#intro h2 {
+		font: normal 17px 'Open Sans', sans-serif;
+		color: black;
+	}
+
+	#intro h2:before, #intro h2:after {
+	display: none;
+	}
+
+	#intro h1 {
+	font: bold 30px 'Open Sans Condensed', sans-serif;
+	line-height: 40px;
+	color: black;
 	}
 
 	#intro p {
 		width: 95%;
-        font: 15px 'Open Sans', sans-serif;
-        line-height: 20px;
-        color: black;
-    }
+		font: 15px 'Open Sans', sans-serif;
+		line-height: 20px;
+		color: black;
+	}
 }
 
 /* SHARE ICON CSS */
 a {
 	text-decoration: none;
 	color: #2569D3;
-}
-
-.social {
-	margin-top: 30px;
 }
 
 #ra-share-top {
