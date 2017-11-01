@@ -119,18 +119,18 @@ body#nydailynews article {
 }
 
 .highlight {
-	background-color: #fff2ac;
 	background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
 }
 
 .note {
 	width: 85%;
-	background-color: #f1f1f1;
-	border: 1px solid #ccc;
+	border: 1px solid gold;
+    background: #fff7cc;
 	padding: 15px;
 	margin: 15px auto;
 	text-align: center;
 	overflow: hidden;
+	filter: drop-shadow(0 0 3px #bfbfbf);
 }
 
 blockquote {
@@ -160,10 +160,10 @@ blockquote p {
 }
 
 .note img.tweet {
-	margin-bottom: 10px;
+	margin: 10px auto;
 	width: 90%;
 	float: none;
-	margin-right: 0;
+	max-width: 470px;
 }
 
 .note img {
