@@ -1,28 +1,3 @@
-h1 {
-	font-size: 50px;
-	line-height: 55px;
-	margin: 40px auto 20px auto;
-}
-
-h2 {
-	font: bold, 26px, 'Open Sans Condensed', sans-serif;
-	margin-top: 30px;
-	margin-bottom: 10px;
-}
-
-p {
-	font-family: 'PT Serif', serif;
-	font-size: 17px;
-	line-height: 27px;
-}
-
-ul {
-	font-family: 'Open Sans', sans-serif;
-	font-weight: normal;
-	font-size: 15px;
-	line-height: 25px;
-}
-
 .center {
 	text-align: center;
 	margin: auto;
@@ -33,28 +8,11 @@ ul {
 	margin: 10px auto;
 }
 
-body#nydailynews article {
-	margin: auto;
-	float: none;
-}
-
-#sidebar {
-	float: right;
-	width: 300px;
-}
-
-.description {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 14px;
-	line-height: 19px;
-	color: #89898A;
-	max-width: 75%;
-}
-
-/*------------------------------------------------------------*/
 #rh-subnav {
 	display: none;
 }
+
+/*--------------------------------*/
 
 #intro-bg {
 	width: 100%;
@@ -69,18 +27,26 @@ body#nydailynews article {
 	padding: 1px;
 	text-align: center;
 	position: relative;
-	top: 71%;
+	top: 73%;
 	transform: translateY(-50%);
 }
 
-#intro h2 {
+h1 {
+	width: 100%;
+	font: bold 60px 'Open Sans Condensed', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	margin: 0;
+}
+
+h2 {
 	font: normal 17px 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	color: white;
 	letter-spacing: 1px;
 }
 
-#intro h2:before, #intro h2:after {
+h2:before, #intro h2:after {
 	content: '';
 	width: 100px;
 	height: 3px;
@@ -90,32 +56,32 @@ body#nydailynews article {
 	margin: auto 15px;
 }
 
-#intro h1 {
-	width: 100%;
-	font: bold 60px 'Open Sans Condensed', sans-serif;
-	text-transform: uppercase;
-	color: white;
-	margin: 0;
-}
 
-#intro p {
+
+p {
 	width: 75%;
 	font: normal 17px 'PT Serif', serif;
 	line-height: 27px;
 	color: white;
-	margin: 15px auto;
+	margin: auto;
 }
 
-#intro p.byline {
+p.byline {
     font: bold 20px "Open Sans Condensed", sans-serif;
     text-transform: uppercase;
     text-align: center;
     color: white;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .speech {
 	margin: 50px auto 0px auto;
 	max-width: 750px;
+}
+
+.speech p {
+	color: black;
 }
 
 .highlight {
@@ -133,22 +99,8 @@ body#nydailynews article {
 	filter: drop-shadow(0 0 3px #bfbfbf);
 }
 
-blockquote {
-	width: 80%;
-	margin: 30px auto;
-	border-left: 2px solid #ef1c1b;
-    padding-left: 20px;
-    line-height: 23px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-}
-
-blockquote p {
-	font: normal 14px 'Open Sans', sans-serif;
-	line-height: 21px;
-}
-
 .note p {
+	width: 100%;
 	font: normal 14px 'Open Sans', sans-serif;
 	line-height: 21px;
 	text-align: left;
@@ -157,13 +109,6 @@ blockquote p {
 
 .note p:last-child {
 	margin-bottom: 0em;
-}
-
-.note img.tweet {
-	margin: 10px auto;
-	width: 90%;
-	float: none;
-	max-width: 470px;
 }
 
 .note img {
