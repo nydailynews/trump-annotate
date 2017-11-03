@@ -56,8 +56,6 @@ h2:before, #intro h2:after {
 	margin: auto 15px;
 }
 
-
-
 p {
 	width: 75%;
 	font: normal 17px 'PT Serif', serif;
@@ -108,15 +106,32 @@ p.byline {
 	margin-bottom: 1em;
 }
 
+.note p.image {
+	margin-top: 1em;
+}
+
 .note p:last-child {
 	margin-bottom: 0em;
 }
 
 .note img {
-	width: 30%;
 	float: left;
 	margin-right: 15px;
 }
+
+.note img.right {
+	float: right;
+	margin-left: 15px;
+	margin-right: 0;
+}
+
+p.caption {
+	font: 14px "Open Sans", sans-serif;
+    color: #999;
+    margin: 10px auto;
+    text-align: center;
+}
+
 
 
 /*--------- HANDHELD ---------*/
