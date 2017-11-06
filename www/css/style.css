@@ -5,7 +5,7 @@
 }
 
 .ad {
-	margin: 10px auto;
+	margin: 20px auto;
 }
 
 #rh-subnav {
@@ -56,7 +56,7 @@ h2:before, #intro h2:after {
 	margin: auto 15px;
 }
 
-p {
+#intro p {
 	width: 75%;
 	font: normal 18px 'PT Serif', serif;
 	line-height: 30px;
@@ -64,7 +64,7 @@ p {
 	margin: auto;
 }
 
-p.byline {
+#intro p.byline {
 	font: bold 20px "Open Sans Condensed", sans-serif;
 	text-transform: uppercase;
 	text-align: center;
@@ -81,6 +81,7 @@ p.byline {
 .speech p {
 	color: black;
 	margin-bottom: 1em;
+	font: normal 18px 'PT Serif', serif;
 }
 
 .highlight {
@@ -125,6 +126,7 @@ p.byline {
 
 .emoji {
 	width: 15%;
+	border: none;
 }
 
 p.caption {
@@ -175,14 +177,16 @@ p.caption {
 		margin: 15px auto;
 	}
 
-	.speech {
-		margin: 435px auto;
+	#intro p.byline {
+		color: black;
 	}
 
 	.speech p {
 		width: 90%;
 		font-size: 16px;
 		line-height: 26px;
+		margin: auto;
+		margin-bottom: 1em;
 	}
 
 	.speech .note p {
@@ -211,6 +215,10 @@ p.caption {
 		width: 75%;
 		margin-top: -15px;
 		margin-bottom: 0;
+	}
+
+	#intro-bg + div.ad {
+		margin-top: 445px;
 	}
 }
 
