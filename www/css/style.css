@@ -229,6 +229,20 @@ p.caption {
 	}
 }
 
+/*--------- TABLET ---------*/
+
+@media only screen and (min-width: 728px) and (max-width: 900px) {
+	h1 {
+		font-size: 40px;
+	}
+
+	#intro p {
+		font-size: 15px;
+		line-height: 25px;
+	}
+
+}
+
 /* SHARE ICON CSS */
 a {
 	text-decoration: none;
