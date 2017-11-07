@@ -5,7 +5,7 @@
 }
 
 .ad {
-	margin: 20px auto;
+	margin: 30px auto;
 }
 
 #rh-subnav {
@@ -36,7 +36,26 @@ h1 {
 	font: bold 60px 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
 	color: white;
-	margin: 0;
+	margin-top: -20px;
+	text-shadow: black 1px 0 10px;
+}
+
+h2 {
+	font: normal 17px 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	color: white;
+	letter-spacing: 1px;
+	display: none;
+}
+
+h2:before, #intro h2:after {
+	content: '';
+	width: 100px;
+	height: 3px;
+	display: inline-block;
+	background-color: white;
+	vertical-align: 0.3em;
+	margin: auto 15px;
 }
 
 #intro p {
@@ -57,7 +76,7 @@ h1 {
 }
 
 .speech {
-	margin: 50px auto;
+	margin: 30px auto;
 	max-width: 750px;
 }
 
@@ -65,6 +84,7 @@ h1 {
 	color: black;
 	margin-bottom: 1em;
 	font: normal 18px 'PT Serif', serif;
+	line-height: 28px;
 }
 
 .highlight {
@@ -134,10 +154,26 @@ p.caption {
 		transform: none;
 	}
 
-	#intro h1 {
-	font: bold 30px 'Open Sans Condensed', sans-serif;
-	line-height: 40px;
-	color: black;
+	h1 {
+		font: bold 30px 'Open Sans Condensed', sans-serif;
+		line-height: 40px;
+		color: black;
+		text-shadow: none;
+		margin-top: 0;
+	}
+
+	h2 {
+		font: normal 15px 'Open Sans', sans-serif;
+		color: black;
+		margin: 15px auto;
+		display: block;
+	}
+
+	h2:before, #intro h2:after {
+		width: 50px;
+		height: 1px;
+		background-color: black;
+		margin: auto 10px;
 	}
 
 	#intro p {
@@ -188,7 +224,8 @@ p.caption {
 	}
 
 	#intro-bg + div.ad {
-		margin-top: 445px;
+		margin-top: 525px;
+		margin-bottom: 0;
 	}
 }
 
