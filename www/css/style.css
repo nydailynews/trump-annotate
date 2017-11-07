@@ -39,23 +39,6 @@ h1 {
 	margin: 0;
 }
 
-h2 {
-	font: normal 17px 'Open Sans', sans-serif;
-	text-transform: uppercase;
-	color: white;
-	letter-spacing: 1px;
-}
-
-h2:before, #intro h2:after {
-	content: '';
-	width: 100px;
-	height: 3px;
-	display: inline-block;
-	background-color: white;
-	vertical-align: 0.3em;
-	margin: auto 15px;
-}
-
 #intro p {
 	width: 75%;
 	font: normal 18px 'PT Serif', serif;
@@ -124,7 +107,7 @@ h2:before, #intro h2:after {
 	border: solid 1px #999;
 }
 
-.emoji {
+.note img.emoji {
 	width: 15%;
 	border: none;
 }
@@ -150,19 +133,6 @@ p.caption {
 		top: 100%;
 		transform: none;
 	}
-
-	#intro h2 {
-		font: normal 15px 'Open Sans', sans-serif;
-		color: black;
-		margin: 15px auto;
-	}
-
-	h2:before, #intro h2:after {
-	width: 50px;
-	height: 1px;
-	background-color: black;
-	margin: auto 10px;
-}
 
 	#intro h1 {
 	font: bold 30px 'Open Sans Condensed', sans-serif;
