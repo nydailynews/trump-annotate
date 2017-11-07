@@ -231,7 +231,7 @@ p.caption {
 
 /*--------- TABLET ---------*/
 
-@media only screen and (min-width: 728px) and (max-width: 900px) {
+@media only screen and (min-width: 728px) and (max-width: 1100px) {
 	h1 {
 		font-size: 40px;
 	}
