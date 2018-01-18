@@ -27,7 +27,9 @@
 	padding: 1px;
 	text-align: center;
 	position: relative;
-	top: 50%;
+	top: 60%;
+	text-shadow: black 1px 0 10px;
+
 }
 
 h1 {
@@ -63,7 +65,7 @@ h2:before, #intro h2:after {
 	margin: auto;
 }
 
-.speech p.byline {
+#intro p.byline {
 	font: bold 20px "Open Sans Condensed", sans-serif;
 	text-transform: uppercase;
 	text-align: center;
@@ -73,7 +75,7 @@ h2:before, #intro h2:after {
 
 .social {
 	margin-left: 15px;
-	text-align: center;
+	margin-bottom: 25px;
 }
 
 .speech {
@@ -96,7 +98,7 @@ h2:before, #intro h2:after {
 	width: 85%;
 	border: 1px solid gold;
 	background: #fff7cc;
-	padding: 15px;
+	padding: 20px;
 	margin: 15px auto;
 	text-align: center;
 	overflow: hidden;
@@ -116,6 +118,7 @@ h2:before, #intro h2:after {
 }
 
 .note img {
+	max-height: 250px;
 	float: left;
 	margin-right: 12px;
 	border: solid 1px #999;
@@ -129,7 +132,7 @@ h2:before, #intro h2:after {
 }
 
 .note img.emoji {
-	width: 15%;
+	width: 25%;
 	border: none;
 }
 
@@ -145,14 +148,13 @@ p.caption {
 /*--------- HANDHELD ---------*/
 
 @media only screen and (min-width: 250px) and (max-width: 727px) {
-#intro-bg {
+	#intro-bg {
 		background-image: url(../img/inauguration-header-mobile.jpg);
-		height: 235px;
+		height: 215px;
 	}
 
 	#intro {
 		top: 100%;
-		transform: none;
 	}
 
 	h1 {
@@ -184,9 +186,9 @@ p.caption {
 		margin: 15px auto;
 	}
 
-	#intro p.byline {
-		color: black;
-	}
+/*	.speech {
+		margin-top: 85%;
+	}*/
 
 	.speech p {
 		width: 90%;
@@ -227,6 +229,16 @@ p.caption {
 	#intro-bg + div.ad {
 		margin-top: 525px;
 		margin-bottom: 0;
+	}
+
+	img {
+		width: 100%;
+		height: auto;
+	}
+
+	iframe {
+		width: 100%;
+		height: auto;
 	}
 }
 
