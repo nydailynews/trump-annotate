@@ -137,9 +137,9 @@ h2:before, #intro h2:after {
 }
 
 p.caption {
-	font: 14px "Open Sans", sans-serif;
+	font: 15px "Open Sans", sans-serif;
 	color: #999;
-	margin: 10px auto;
+	margin: 10px auto 100px auto;
 	text-align: center;
 }
 
