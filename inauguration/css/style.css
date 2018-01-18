@@ -90,8 +90,9 @@ h2:before, #intro h2:after {
 	line-height: 28px;
 }
 
-.highlight {
+mark {
 	background-image: linear-gradient(to right, #ffe359 0%, #fff2ac 100%);
+	font-style: normal;
 }
 
 .note {
@@ -155,6 +156,7 @@ p.caption {
 
 	#intro {
 		top: 100%;
+		text-shadow: none;
 	}
 
 	h1 {
