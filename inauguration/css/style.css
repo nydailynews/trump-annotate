@@ -182,7 +182,7 @@ p.caption {
 	}
 
 	#intro p {
-		font-size: 15px;
+		font-size: 16px;
 		width: 95%;
 		color: black;
 		margin: 15px auto;
@@ -225,7 +225,7 @@ p.caption {
 	}
 
 	#intro-bg + div.ad {
-		margin-top: 525px;
+		margin-top: 240px;
 		margin-bottom: 0;
 	}
 
