@@ -188,10 +188,6 @@ p.caption {
 		margin: 15px auto;
 	}
 
-/*	.speech {
-		margin-top: 85%;
-	}*/
-
 	.speech p {
 		width: 90%;
 		font-size: 16px;
@@ -242,6 +238,14 @@ p.caption {
 		width: 100%;
 		height: auto;
 	}
+
+	div.vdb_player {
+		display: none;
+	}
+
+	#twitter-widget-3 {
+		display: none;
+	}
 }
 
 /*--------- TABLET ---------*/
@@ -251,9 +255,21 @@ p.caption {
 		font-size: 40px;
 	}
 
+	#intro {
+		top: 63%;
+	}
+
 	#intro p {
 		font-size: 15px;
 		line-height: 25px;
+	}
+
+	.speech {
+		max-width: 85%;
+	}
+
+	iframe {
+		max-width: 100%;
 	}
 
 }
