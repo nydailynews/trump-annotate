@@ -224,7 +224,7 @@ p.caption {
 		margin-bottom: 0;
 	}
 
-	#intro-bg div.ad {
+	#intro-bg + div.ad {
 		margin-top: 400px;
 		margin-bottom: 0px;
 		width: 300px;
@@ -249,7 +249,7 @@ p.caption {
 	}
 }
 
-@media (max-width: 727px) { #rh .rh-ad { height: 50px; } }
+@media only screen and (max-width: 727px) { #rh .rh-ad { height: 50px; } }
 
 /*--------- TABLET ---------*/
 
